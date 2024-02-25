@@ -43,9 +43,9 @@ function Back({ className, flip }) {
 }
 
 function Front({ className, children }) {
-  return <button className={className}>{children}</button>;
+  return <div className={className}>{children}</div>;
 }
 
 function Matched({ className, children }) {
-  return <button className={className}>{children}</button>;
+  return <div className={className}>{children}</div>;
 }
